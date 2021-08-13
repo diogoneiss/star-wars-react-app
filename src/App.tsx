@@ -3,7 +3,9 @@ import CalculateStops from './components/CalculateStops';
 
 function App() {
 
-  //TODO: inserir lógica do redux aqui
+  //TODO: inserir lógica do redux aqui, configurando a store e os middlewares
+  //Deve armazenar no redux e alterar uma flag de finalização do carregamento como bem sucedido/erro que aconteceu
+
   //TODO: fazer e armazenar a chamada API através de um useEffect. a função necessária está em utils/library, requestStarshipData().
   React.useEffect(() => {
 
